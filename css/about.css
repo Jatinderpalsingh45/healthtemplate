@@ -1,0 +1,259 @@
+
+
+/* mobile viewport */
+@media (max-width: 600px) { 
+    
+
+.navbar{
+    position: fixed !important;
+    width: 100%;
+    height: 4.0rem;
+    padding-top: 2.0rem;
+    padding: 3.0rem;
+}
+#nav{
+    background-color: #E0DADA !important;
+    opacity: 10;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 1.0rem;
+}
+.nav-link{
+    color:  #000 !important;
+}
+#navbarSupportedContent{
+    margin-left: -4.4rem;
+}
+#screen1{
+    height: 100vh;
+    padding-top: 7.0rem;
+    padding-left: 2.0rem;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 42px !important;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+img{
+    width: 90%;
+}
+
+#abouttext{
+    padding: .1rem;
+    width: 100%;
+}
+
+#aboutimg{
+    padding-top: 3.0rem;
+    width: 100%;
+}
+
+#footer{
+    height: 4.0rem;
+    width: 100%;
+    text-align: center !important;
+    font-size: 12px !important;
+    background-color: #fff; 
+}
+
+#footer p{
+    font-size: 12px !important;
+}
+}
+
+/* tablet viewport */
+@media (min-width: 768px) { 
+    .navbar{
+        position: fixed !important;
+        width: 100%;
+        height: 4.0rem;
+        padding-top: 2.0rem;
+        padding: 3.0rem;
+    }
+    #nav{
+        background-color: #E0DADA !important;
+        opacity: 10;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding-top: 1.0rem;
+    }
+    .nav-link{
+        color:  #000 !important;
+    }
+    #screen1{
+        height: 100vh;
+        padding-top: 7.0rem;
+        padding-left: 2.0rem;
+    }
+    
+    h1{
+        color: rgb(0, 0, 0);
+        text-align: left;
+        font-size: 42px !important;
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    
+    img{
+        width: 90%;
+    }
+    
+    #abouttext{
+        padding: .0rem;
+    }
+    
+    #aboutimg{
+        padding-top: 7.0rem;
+    }
+    
+    #footer{
+        height: 4.0rem;
+        width: 100%;
+        text-align: center !important;
+        font-size: 12px !important;
+        background-color: #fff; 
+    }
+    
+    #footer p{
+        font-size: 12px !important;
+    }
+}
+
+/* desktop viewport */
+@media (min-width: 1200px) { 
+.navbar{
+    position: fixed !important;
+    width: 100%;
+    height: 4.0rem;
+    padding-top: 2.0rem;
+    padding: 3.0rem;
+}
+#nav{
+    background-color: #E0DADA !important;
+    opacity: 10;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 1.0rem;
+}
+.nav-link{
+    color:  #000 !important;
+}
+#screen1{
+    height: 100vh;
+    padding-top: 7.0rem;
+    padding-left: 2.0rem;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 42px !important;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+img{
+    width: 90%;
+}
+
+#abouttext{
+    padding: 5.0rem;
+    color: #000;
+}
+
+#aboutimg{
+    padding-top: 3.0rem;
+}
+
+#footer{
+    height: 4.0rem;
+    width: 100%;
+    text-align: center !important;
+    font-size: 12px !important;
+    background-color: #fff; 
+}
+
+#footer p{
+    font-size: 12px !important;
+}
+}
+
+/* desktop viewport large */
+@media (min-width: 1400px) {
+    .navbar{
+        position: fixed !important;
+        width: 100%;
+        height: 4.0rem;
+        padding-top: 2.0rem;
+        padding: 3.0rem;
+    }
+    #nav{
+        background-color: #E0DADA !important;
+        opacity: 10;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding-top: 1.0rem;
+    }
+    .nav-link{
+        color:  #000 !important;
+    }
+    #screen1{
+        height: 100vh;
+        padding-top: 7.0rem;
+        padding-left: 2.0rem;
+    }
+    
+    h1{
+        color: rgb(0, 0, 0);
+        text-align: left;
+        font-size: 42px !important;
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    
+    img{
+        width: 90%;
+    }
+    
+    #abouttext{
+        padding: 5.0rem;
+        color:  #000!important;
+    }
+    
+    #aboutimg{
+        padding-top: 3.0rem;
+    }
+    
+    #footer{
+        height: 4.0rem;
+        width: 100%;
+        text-align: center !important;
+        font-size: 12px !important;
+        background-color: #fff; 
+    }
+    
+    #footer p{
+        font-size: 12px !important;
+    }
+}
+
