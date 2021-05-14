@@ -116,7 +116,62 @@ h1{
     font-size: 12px !important;
 }
 }
-
+@media (min-width: 992px) {
+    .navbar{
+        position: fixed !important;
+        width: 100%;
+        height: 4.0rem;
+        padding-top: 2.0rem;
+        padding: 3.0rem;
+    }
+    #nav{
+        background-color: #E0DADA !important;
+        opacity: 10;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding-top: 1.0rem;
+    }
+    .nav-link{
+        color:  #000 !important;
+    }
+    img{
+        width: 90%;
+    }
+    #team{
+        margin-top: 5.0rem;
+    }
+    #description{
+        margin-top: 8.0rem;
+        margin-bottom: 3.0rem;
+        font-size: 30px;
+    }
+    #screen1{
+        height: 100vh;
+        padding-top: 7.0rem;
+        padding-left: 2.0rem;
+    }
+    
+    h1{
+        color: rgb(0, 0, 0);
+        text-align: left;
+        font-size: 72px !important;
+    }
+    
+    #footer{
+        height: 4.0rem;
+        width: 100%;
+        text-align: center !important;
+        font-size: 16px !important;
+        background-color: #fff; 
+        margin-top: 6.0rem;
+    }
+    
+    #footer p{
+        font-size: 16px !important;
+    } 
+}
 /* desktop viewport */
 @media (min-width: 1200px) { 
     .navbar{

@@ -172,7 +172,91 @@
         font-size: 12px !important;
     }
 }
-
+@media (min-width: 992px) {
+    .navbar{
+        position: fixed !important;
+        width: 100%;
+        height: 4.0rem;
+        padding-top: 2.0rem;
+        padding: 3.0rem;
+    }
+    #nav{
+        background-color: #E0DADA !important;
+        opacity: 10;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding-top: 1.0rem;
+    }
+    .nav-link{
+        color:  #000 !important;
+    }
+    
+    #screen1{
+        padding-top: 9.0rem;
+        height: 100vh;
+    }
+    #contact{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 72px;
+    }
+    
+    #contactme{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 2.5rem;
+        font-weight: 300;
+        font-size: 48px;
+    }
+    
+    #contactimg{
+        width: 90%;
+        margin-top: -63.0rem;
+        margin-left: 15px;
+    }
+    
+    #email{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 2.5rem;
+        font-weight: 300;
+        font-size: 13px;
+        color: rgb(155, 152, 152);
+    }
+    
+    #myemail{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: -1.5rem;
+        font-weight: 700;
+        font-size: 16px;
+        color: rgb(3, 0, 0);
+    }
+    
+    #btn3{
+        background-color: #F5534D;
+        font-size: 15px;
+        width: 7.0rem;
+        height: 3.0rem;
+        border-radius: 8px;
+        padding: 8px;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        margin-right: 22px;
+        margin-top: 34px;
+    }
+    #footer{
+        height: 4.0rem;
+        width: 100%;
+        text-align: center !important;
+        font-size: 12px !important;
+        background-color: #fff; 
+        margin-top: -4.0rem;
+    }
+    
+    #footer p{
+        font-size: 12px !important;
+    }
+}
 /* desktop viewport */
 @media (min-width: 1200px) { 
     .navbar{
